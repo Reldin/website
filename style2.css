@@ -3,6 +3,12 @@
 body, html {
   width: 100%;
   height: 100%;
+  margin: 0 auto;
+}
+
+body.about {
+  width: 100%;
+  height: 120%;
   font-family: 'Montserrat', sans-serif;
    background: url(background.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -10,7 +16,18 @@ body, html {
   -o-background-size: cover;
   background-size: cover;
   margin: 0 auto;
+}
 
+body.tree-page {
+	width: 100%;
+	height: 120%;
+	font-family: 'Montserrat', sans-serif;
+	background: url(tree.jpg) no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin: 0 auto;
 
 }
 
@@ -39,9 +56,27 @@ hr {
 .btn-primary {
 	background-color: #F05F44;
 	border-color: #F05F44;
+	position: absolute;
+	top: 200%;
+	left: 46%;
+	
+}
+.btn-primary2 {
+	background-color: #F05F44;
+	border-color: #F05F44;
+	position: absolute;
+	top: 100%;
+	left: -20%;
 }
 
 .btn-primary:hover {
+	background-color: #ee4b08;
+	border-color: #ee4b08;
+	border-width: 4px;
+	margin-right: ;
+}
+
+.btn-primary2:hover {
 	background-color: #ee4b08;
 	border-color: #ee4b08;
 	border-width: 4px;
@@ -61,4 +96,20 @@ hr {
 .buffer {
 	height: 20rem;
 }
+.btn-outline-danger {
+	width: 110px;
+	position: absolute;
+	top: 5%;
+	left: 80%;
+}
 
+.btn-outline-danger:hover {
+	border-width: 10px;
+	position: absolute;
+	top: 5%;
+	left: 80%;
+}
+
+.dropdown {
+	margin-right: 0 auto;
+}
