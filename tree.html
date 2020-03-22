@@ -18,24 +18,27 @@
     <!-- Your own stylesheet -->
     <link rel="stylesheet" type="text/css" href="style2.css">
   </head>
-  <div class="dropdown">
+  
+  <body class="tree-page">
+
+    <div class="dropdown">
   <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     Options
   </a>
-
   <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
     <a class="dropdown-item" href="index.html">Go to homepage</a>
-    <a class="dropdown-item" href="#">Leave a comment</a>
+    <a class="dropdown-item" href="#">Leave a comment(not implemented yet)</a>
     <a class="dropdown-item" href="gallery.html">Yue Qi</a>
   </div>
-  <body class="tree-page">
+</div>
+  <div>
     <div class="container d-flex align-items-center h-100">
       <div class="row">
         <header class="text-center col-12">
-          <h1 class="text-uppercase"><strong>It's a tree</strong></h1>
+          <h1 class="text-uppercase"><strong>It's not a tree</strong></h1>
         </header>
         <div class="buffer col-12"></div>
-        <div><button type="button" class="btn btn-outline-danger"><a href="index.html">LEAVE</a></button></div>
+        <div><button type="button" class="btn btn-outline-danger"><a href="about.html">Back</a></button></div>
       <section class="text-center col-12">
         
       </section>
@@ -45,5 +48,14 @@
         <button class="btn btn-primary btn-xl">Continue</button>
     </a>
 </div>
+  <div class="list-group">
+    <a href="index.html" class="list-group-item list-group-item-action active">
+    home button
+    </a>
+    <a href="#" class="list-group-item list-group-item-action">Button for something</a>
+    <a href="#" class="list-group-item list-group-item-action">Button for something</a>
+    <a href="#" class="list-group-item list-group-item-action">Button for something</a>
+    <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">DISABLED</a>
+  </div>
   </body>
 </html>
